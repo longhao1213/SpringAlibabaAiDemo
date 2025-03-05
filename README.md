@@ -7,7 +7,7 @@ jdk17
 maven
 ```
 2. key需要配置在环境变量或者直接替换配置文件
-3. 项目运行后访问接口
+3. 项目运[.idea](.idea)行后访问接口
 ```html
 http://127.0.0.1:8080/chat?input=XXX
 ```
@@ -19,3 +19,6 @@ http://127.0.0.1:8080/chat?input=XXX
 2.删除订单，通过告知ai需要删除的订单名称来删除
 
 ```
+
+## ollama_deepseek项目说明
+1. 这是基于本地ollama运行deepseek-r1:8b的例子
