@@ -3,7 +3,7 @@ spring:
     name: alibaba-ai-demo
   ai:
     dashscope:
-      api-key: ${ALI_AI_KEY}
+      api-key: ${ALI_AI_KEY} # 使用自己的key
       chat:
         options:
-          model: qwen-max
+          model: qwen-max # 选择合适的模型
